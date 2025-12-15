@@ -1,0 +1,343 @@
+.
+|-- backend
+|   |-- cmd
+|   |   `-- main.go
+|   |-- Dockerfile.dev
+|   |-- go.mod
+|   |-- go.sum
+|   |-- internal
+|   |   |-- config
+|   |   |   `-- config.go
+|   |   |-- database
+|   |   |   |-- connection.go
+|   |   |   `-- migrations.go
+|   |   |-- handlers
+|   |   |   |-- auth_handler.go
+|   |   |   |-- customer_handler.go
+|   |   |   |-- dashboard_handler.go
+|   |   |   |-- invoice_handler.go
+|   |   |   `-- user_handler.go
+|   |   |-- middleware
+|   |   |   |-- auth.go
+|   |   |   `-- cors.go
+|   |   |-- models
+|   |   |   |-- customer.go
+|   |   |   |-- invoice.go
+|   |   |   `-- user.go
+|   |   |-- repository
+|   |   |   |-- customer_repository.go
+|   |   |   |-- invoice_repository.go
+|   |   |   `-- user_repository.go
+|   |   `-- services
+|   |       |-- auth_service.go
+|   |       |-- customer_service.go
+|   |       |-- invoice_service.go
+|   |       `-- user_service.go
+|   `-- main
+|-- database
+|   |-- init
+|   |   `-- 01_init.sql
+|   `-- init.sql
+|-- frontend
+|   |-- analysis_options.yaml
+|   |-- android
+|   |   |-- app
+|   |   |   |-- build.gradle.kts
+|   |   |   `-- src
+|   |   |       |-- debug
+|   |   |       |   `-- AndroidManifest.xml
+|   |   |       |-- main
+|   |   |       |   |-- AndroidManifest.xml
+|   |   |       |   |-- java
+|   |   |       |   |   `-- io
+|   |   |       |   |       `-- flutter
+|   |   |       |   |           `-- plugins
+|   |   |       |   |               `-- GeneratedPluginRegistrant.java
+|   |   |       |   |-- kotlin
+|   |   |       |   |   `-- com
+|   |   |       |   |       `-- example
+|   |   |       |   |           `-- baseer
+|   |   |       |   |               `-- MainActivity.kt
+|   |   |       |   `-- res
+|   |   |       |       |-- drawable
+|   |   |       |       |   `-- launch_background.xml
+|   |   |       |       |-- drawable-v21
+|   |   |       |       |   `-- launch_background.xml
+|   |   |       |       |-- mipmap-hdpi
+|   |   |       |       |   `-- ic_launcher.png
+|   |   |       |       |-- mipmap-mdpi
+|   |   |       |       |   `-- ic_launcher.png
+|   |   |       |       |-- mipmap-xhdpi
+|   |   |       |       |   `-- ic_launcher.png
+|   |   |       |       |-- mipmap-xxhdpi
+|   |   |       |       |   `-- ic_launcher.png
+|   |   |       |       |-- mipmap-xxxhdpi
+|   |   |       |       |   `-- ic_launcher.png
+|   |   |       |       |-- values
+|   |   |       |       |   `-- styles.xml
+|   |   |       |       `-- values-night
+|   |   |       |           `-- styles.xml
+|   |   |       `-- profile
+|   |   |           `-- AndroidManifest.xml
+|   |   |-- baseer_android.iml
+|   |   |-- build.gradle.kts
+|   |   |-- .gradle
+|   |   |   |-- 8.12
+|   |   |   |   |-- checksums
+|   |   |   |   |   `-- checksums.lock
+|   |   |   |   |-- executionHistory
+|   |   |   |   |   |-- executionHistory.bin
+|   |   |   |   |   `-- executionHistory.lock
+|   |   |   |   |-- expanded
+|   |   |   |   |-- fileChanges
+|   |   |   |   |   `-- last-build.bin
+|   |   |   |   |-- fileHashes
+|   |   |   |   |   |-- fileHashes.bin
+|   |   |   |   |   |-- fileHashes.lock
+|   |   |   |   |   `-- resourceHashesCache.bin
+|   |   |   |   |-- gc.properties
+|   |   |   |   `-- vcsMetadata
+|   |   |   |-- buildOutputCleanup
+|   |   |   |   |-- buildOutputCleanup.lock
+|   |   |   |   |-- cache.properties
+|   |   |   |   `-- outputFiles.bin
+|   |   |   |-- file-system.probe
+|   |   |   |-- noVersion
+|   |   |   |   `-- buildLogic.lock
+|   |   |   `-- vcs-1
+|   |   |       `-- gc.properties
+|   |   |-- gradle
+|   |   |   `-- wrapper
+|   |   |       `-- gradle-wrapper.properties
+|   |   |-- gradle.properties
+|   |   |-- gradlew
+|   |   |-- gradlew.bat
+|   |   |-- .kotlin
+|   |   |   `-- sessions
+|   |   |-- local.properties
+|   |   `-- settings.gradle.kts
+|   |-- assets
+|   |   |-- fonts
+|   |   |-- icons
+|   |   `-- images
+|   |-- baseer.iml
+|   |-- .flutter-plugins-dependencies
+|   |-- ios
+|   |   |-- Flutter
+|   |   |   |-- AppFrameworkInfo.plist
+|   |   |   |-- Debug.xcconfig
+|   |   |   |-- ephemeral
+|   |   |   |   |-- flutter_lldb_helper.py
+|   |   |   |   `-- flutter_lldbinit
+|   |   |   |-- flutter_export_environment.sh
+|   |   |   |-- Generated.xcconfig
+|   |   |   `-- Release.xcconfig
+|   |   |-- Runner
+|   |   |   |-- AppDelegate.swift
+|   |   |   |-- Assets.xcassets
+|   |   |   |   |-- AppIcon.appiconset
+|   |   |   |   |   |-- Contents.json
+|   |   |   |   |   |-- Icon-App-1024x1024@1x.png
+|   |   |   |   |   |-- Icon-App-20x20@1x.png
+|   |   |   |   |   |-- Icon-App-20x20@2x.png
+|   |   |   |   |   |-- Icon-App-20x20@3x.png
+|   |   |   |   |   |-- Icon-App-29x29@1x.png
+|   |   |   |   |   |-- Icon-App-29x29@2x.png
+|   |   |   |   |   |-- Icon-App-29x29@3x.png
+|   |   |   |   |   |-- Icon-App-40x40@1x.png
+|   |   |   |   |   |-- Icon-App-40x40@2x.png
+|   |   |   |   |   |-- Icon-App-40x40@3x.png
+|   |   |   |   |   |-- Icon-App-60x60@2x.png
+|   |   |   |   |   |-- Icon-App-60x60@3x.png
+|   |   |   |   |   |-- Icon-App-76x76@1x.png
+|   |   |   |   |   |-- Icon-App-76x76@2x.png
+|   |   |   |   |   `-- Icon-App-83.5x83.5@2x.png
+|   |   |   |   `-- LaunchImage.imageset
+|   |   |   |       |-- Contents.json
+|   |   |   |       |-- LaunchImage@2x.png
+|   |   |   |       |-- LaunchImage@3x.png
+|   |   |   |       |-- LaunchImage.png
+|   |   |   |       `-- README.md
+|   |   |   |-- Base.lproj
+|   |   |   |   |-- LaunchScreen.storyboard
+|   |   |   |   `-- Main.storyboard
+|   |   |   |-- GeneratedPluginRegistrant.h
+|   |   |   |-- GeneratedPluginRegistrant.m
+|   |   |   |-- Info.plist
+|   |   |   `-- Runner-Bridging-Header.h
+|   |   |-- RunnerTests
+|   |   |   `-- RunnerTests.swift
+|   |   |-- Runner.xcodeproj
+|   |   |   |-- project.pbxproj
+|   |   |   |-- project.xcworkspace
+|   |   |   |   |-- contents.xcworkspacedata
+|   |   |   |   `-- xcshareddata
+|   |   |   |       |-- IDEWorkspaceChecks.plist
+|   |   |   |       `-- WorkspaceSettings.xcsettings
+|   |   |   `-- xcshareddata
+|   |   |       `-- xcschemes
+|   |   |           `-- Runner.xcscheme
+|   |   `-- Runner.xcworkspace
+|   |       |-- contents.xcworkspacedata
+|   |       `-- xcshareddata
+|   |           |-- IDEWorkspaceChecks.plist
+|   |           `-- WorkspaceSettings.xcsettings
+|   |-- lib
+|   |   |-- core
+|   |   |   |-- config
+|   |   |   |   `-- app_config.dart
+|   |   |   |-- constants
+|   |   |   |   |-- api_endpoints.dart
+|   |   |   |   |-- app_constants.dart
+|   |   |   |   `-- asset_paths.dart
+|   |   |   |-- network
+|   |   |   |   |-- api_client.dart
+|   |   |   |   |-- error_handler.dart
+|   |   |   |   `-- interceptors.dart
+|   |   |   |-- providers
+|   |   |   |   `-- app_providers.dart
+|   |   |   |-- router
+|   |   |   |   |-- app_router.dart
+|   |   |   |   |-- custom_transitions.dart
+|   |   |   |   `-- main_shell.dart
+|   |   |   |-- storage
+|   |   |   |   |-- cache_manager.dart
+|   |   |   |   |-- preferences.dart
+|   |   |   |   `-- storage_service.dart
+|   |   |   |-- theme
+|   |   |   |   |-- app_animations.dart
+|   |   |   |   |-- app_colors.dart
+|   |   |   |   |-- app_dimensions.dart
+|   |   |   |   |-- app_gradients.dart
+|   |   |   |   |-- app_shadows.dart
+|   |   |   |   |-- app_theme.dart
+|   |   |   |   |-- app_typography.dart
+|   |   |   |   |-- theme.dart
+|   |   |   |   `-- theme_demo.dart
+|   |   |   `-- utils
+|   |   |       |-- formatters.dart
+|   |   |       |-- helpers.dart
+|   |   |       `-- validators.dart
+|   |   |-- features
+|   |   |   |-- auth
+|   |   |   |   |-- data
+|   |   |   |   |   |-- datasources
+|   |   |   |   |   |   `-- auth_remote_datasource.dart
+|   |   |   |   |   |-- models
+|   |   |   |   |   |   `-- auth_models.dart
+|   |   |   |   |   `-- repositories
+|   |   |   |   |       `-- auth_repository_impl.dart
+|   |   |   |   |-- domain
+|   |   |   |   |   |-- repositories
+|   |   |   |   |   |   `-- auth_repository.dart
+|   |   |   |   |   `-- usecases
+|   |   |   |   |       |-- login_usecase.dart
+|   |   |   |   |       |-- logout_usecase.dart
+|   |   |   |   |       `-- register_usecase.dart
+|   |   |   |   `-- presentation
+|   |   |   |       |-- pages
+|   |   |   |       |   |-- login_screen.dart
+|   |   |   |       |   |-- register_screen.dart
+|   |   |   |       |   `-- welcome_screen.dart
+|   |   |   |       `-- providers
+|   |   |   |           |-- auth_provider.dart
+|   |   |   |           `-- auth_state.dart
+|   |   |   |-- dashboard
+|   |   |   |   `-- presentation
+|   |   |   |       |-- pages
+|   |   |   |       |   `-- dashboard_screen.dart
+|   |   |   |       `-- widgets
+|   |   |   |           |-- quick_actions.dart
+|   |   |   |           |-- recent_invoices_list.dart
+|   |   |   |           |-- revenue_chart.dart
+|   |   |   |           `-- stats_card.dart
+|   |   |   `-- invoices
+|   |   |       |-- data
+|   |   |       |   |-- datasources
+|   |   |       |   |   `-- invoice_remote_datasource.dart
+|   |   |       |   |-- models
+|   |   |       |   |   |-- invoice_models.dart
+|   |   |       |   |   `-- invoice_models.g.dart
+|   |   |       |   `-- repositories
+|   |   |       |       `-- invoice_repository_impl.dart
+|   |   |       |-- domain
+|   |   |       |   |-- entities
+|   |   |       |   |   `-- invoice_entity.dart
+|   |   |       |   |-- repositories
+|   |   |       |   |   `-- invoice_repository.dart
+|   |   |       |   `-- usecases
+|   |   |       |       |-- create_invoice_usecase.dart
+|   |   |       |       |-- delete_invoice_usecase.dart
+|   |   |       |       |-- get_invoice_stats_usecase.dart
+|   |   |       |       |-- get_invoices_usecase.dart
+|   |   |       |       |-- get_invoice_usecase.dart
+|   |   |       |       |-- mark_as_paid_usecase.dart
+|   |   |       |       |-- send_invoice_usecase.dart
+|   |   |       |       `-- update_invoice_usecase.dart
+|   |   |       `-- presentation
+|   |   |           |-- pages
+|   |   |           |   `-- invoices_screen.dart
+|   |   |           |-- providers
+|   |   |           |   `-- invoice_provider.dart
+|   |   |           `-- widgets
+|   |   |               |-- invoice_card.dart
+|   |   |               |-- invoice_filter_sheet.dart
+|   |   |               |-- invoice_search_bar.dart
+|   |   |               `-- invoice_stats_card.dart
+|   |   |-- main.dart
+|   |   `-- shared
+|   |       `-- widgets
+|   |           |-- buttons
+|   |           |   `-- custom_button.dart
+|   |           |-- cards
+|   |           |   `-- custom_card.dart
+|   |           |-- dialogs
+|   |           |   `-- saudi_dialog.dart
+|   |           |-- forms
+|   |           |   |-- custom_text_field.dart
+|   |           |   `-- saudi_search_field.dart
+|   |           |-- loading
+|   |           |   |-- loading_indicator.dart
+|   |           |   `-- saudi_loading_indicator.dart
+|   |           `-- navigation
+|   |               `-- saudi_bottom_nav.dart
+|   |-- linux
+|   |   |-- CMakeLists.txt
+|   |   |-- flutter
+|   |   |   |-- CMakeLists.txt
+|   |   |   |-- ephemeral
+|   |   |   |   `-- .plugin_symlinks
+|   |   |   |       |-- file_selector_linux -> /home/m/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.3+2/
+|   |   |   |       |-- flutter_secure_storage_linux -> /home/m/.pub-cache/hosted/pub.dev/flutter_secure_storage_linux-1.2.3/
+|   |   |   |       |-- image_picker_linux -> /home/m/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.2/
+|   |   |   |       |-- path_provider_linux -> /home/m/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+|   |   |   |       |-- printing -> /home/m/.pub-cache/hosted/pub.dev/printing-5.14.2/
+|   |   |   |       `-- shared_preferences_linux -> /home/m/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1/
+|   |   |   |-- generated_plugin_registrant.cc
+|   |   |   |-- generated_plugin_registrant.h
+|   |   |   `-- generated_plugins.cmake
+|   |   `-- runner
+|   |       |-- CMakeLists.txt
+|   |       |-- main.cc
+|   |       |-- my_application.cc
+|   |       `-- my_application.h
+|   |-- pubspec.lock
+|   |-- pubspec.yaml
+|   |-- README.md
+|   |-- test
+|   |   `-- widget_test.dart
+|   `-- web
+|       |-- favicon.png
+|       |-- icons
+|       |   |-- Icon-192.png
+|       |   |-- Icon-512.png
+|       |   |-- Icon-maskable-192.png
+|       |   `-- Icon-maskable-512.png
+|       |-- index.html
+|       `-- manifest.json
+|-- scripts
+|   `-- setup-dev.sh
+|-- تقرير_التقييم_الشامل.md
+`-- شجرة_هيكل_المشروع.txt
+
+135 directories, 206 files
