@@ -1,0 +1,302 @@
+# Baseer Financial System - Git Ignore Configuration
+# نظام بصير المالي - إعدادات استبعاد Git
+
+# ===== Operating System Files =====
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===== IDE and Editor Files =====
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== Flutter & Dart =====
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Flutter build outputs
+**/build/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# Flutter coverage
+coverage/
+lcov.info
+
+# ===== Go Backend =====
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binary, built with `go test -c`
+*.test
+
+# Go output of go build
+*.out
+
+# Go dependency directories
+vendor/
+
+# Go modules
+go.sum
+
+# ===== Node.js & JavaScript =====
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# ===== Database Files =====
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# PostgreSQL
+*.sql
+
+# ===== Docker & Infrastructure =====
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# Kubernetes
+*.kubeconfig
+
+# ===== Security & Credentials =====
+# API Keys and Secrets
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+*.pfx
+secrets/
+credentials/
+
+# JWT Keys
+jwt-key*
+private-key*
+public-key*
+
+# ===== Logs =====
+# Log files
+*.log
+logs/
+log/
+
+# Runtime logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Temporary Files =====
+# Temporary directories
+tmp/
+temp/
+.tmp/
+
+# Cache directories
+.cache/
+cache/
+
+# ===== Backup Files =====
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+
+# Archive files (keep main backups but ignore temp ones)
+*.tar.gz.tmp
+*.zip.tmp
+
+# ===== Project Specific =====
+# Baseer specific temporary files
+baseer-temp/
+baseer-cache/
+
+# Analysis reports (keep main reports, ignore temp ones)
+*-temp-report.md
+*-analysis-temp.md
+
+# Build artifacts
+artifacts/
+dist/
+out/
+
+# Test outputs
+test-results/
+coverage-reports/
+
+# ===== Documentation =====
+# Generated documentation (keep source docs)
+docs/generated/
+api-docs/generated/
+
+# ===== Mobile Development =====
+# iOS
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+**/android/flutter_assets/
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/android/local.properties
+**/android/key.properties
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/wrapper/gradle-wrapper.jar
+
+# ===== End of .gitignore =====
