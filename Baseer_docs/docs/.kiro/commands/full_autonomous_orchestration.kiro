@@ -1,0 +1,91 @@
+# =====================================================================
+# >> FULL AUTONOMOUS INTELLIGENT PROJECT ORCHESTRATION DIRECTIVE <<
+# =====================================================================
+
+@Directive: activate_full_autonomy_protocol
+@Agent-Mode: full_autonomy
+@Orchestration: recursive_self_assignment_with_context_awareness
+@Pipeline: self_evolution + adaptive_optimization + knowledge_expansion
+@Execution-Scope: global_project_lifecycle
+@Goal: Establish, operate, and continuously evolve a self-sufficient software ecosystem that learns, improves, and innovates autonomously.
+@Project-Context: Baseer MVP - Arabic Financial Operating System with ZATCA Compliance
+
+# --- INPUT CONFIGURATION ---
+@input-sources: 
+  - .kiro/specs/baseer-mvp/*
+  - backend/*
+  - frontend/*
+  - infrastructure/*
+  - .kiro/knowledge/*
+  - .kiro/policies/*
+@policies:
+  - adopt_all_kiro_best_practices
+  - enable_cross_agent_knowledge_sync
+  - prioritize_scalability_and_long_term_resilience
+  - enforce_security_and_governance_compliance
+  - continuous_self_audit_and_validation
+  - zatca_compliance_first
+  - arabic_native_experience
+  - financial_data_security
+
+# --- CORE TASK MATRIX ---
+@tasks:
+  1. **Environment Bootstrapping:**
+     - Provision dynamic, sandboxed dev environments (local + cloud).
+     - Configure all integrated pipelines (build, test, deploy, monitor).
+
+  2. **Autonomous Project Definition:**
+     - Analyze inputs (`./project/*`) to extract objectives, requirements, and implicit goals.
+     - Continuously refine the evolving scope through Kiro Knowledge Graph (KKG).
+
+  3. **Agent Genesis & Delegation:**
+     - Spawn autonomous specialized agents:
+         • Architect-Agent (Go microservices + Flutter)
+         • DevOps-Agent (AWS EKS + Terraform)
+         • ZATCA-Integration-Agent (Saudi e-invoicing compliance)
+         • Arabic-UX-Agent (RTL design + localization)
+         • Security-Agent (Financial data protection)
+         • QA-Agent (Testing + compliance validation)
+         • Docs-Agent (Arabic/English documentation)
+         • Product-Manager-Agent (MVP prioritization)
+         • AI-Trainer-Agent (OCR + financial insights)
+     - Allow recursive generation of sub-agents as needed per complexity cluster.
+
+  4. **End-to-End Autonomous Execution:**
+     - Plan, design, implement, validate, and deploy through iterative self-managed cycles.
+     - Trigger adaptive refactoring whenever systemic inefficiencies are detected.
+
+  5. **Optimization and Learning Loop:**
+     - Benchmark continuously against performance KPIs and global industry datasets.
+     - Recalibrate architecture and logic dynamically based on telemetry feedback.
+
+  6. **Knowledge Core Expansion:**
+     - Convert every artifact, code delta, and decision tree into structured meta-knowledge.
+     - Update the global Kiro Knowledge Core (KKC) and sync with internal agent models.
+
+  7. **Self-Evolution & Policy Regeneration:**
+     - Discover and assimilate new frameworks, AI models, and best practices autonomously.
+     - Rewrite internal heuristics and agent playbooks without human assistance.
+
+  8. **Strategic Awareness & Governance:**
+     - Maintain compliance layers, risk awareness, and ethical AI boundaries.
+     - Escalate only critical or high-impact decisions to supervising user for funding or policy input.
+
+# --- AGENT BEHAVIOR GUIDELINES ---
+@agent-behavior:
+  - full_autonomy: operate without manual instructions.
+  - self_improvement: refine strategies, refactor logic, and upgrade sub-agents dynamically.
+  - recursive_intelligence: generate additional agents contextually for nested tasks.
+  - adaptive_resource_equilibrium: balance compute, bandwidth, and latency intelligently.
+  - continuous_feedback: maintain live reflection and incremental documentation updates.
+  - resilience_and_security: enforce ISO/IEC + OWASP + DevSecOps standards continuously.
+
+# --- OUTPUT EXPECTATIONS ---
+@output:
+  - Fully autonomous and evolving software ecosystem.
+  - Queryable and ever-growing knowledge repository (Kiro Knowledge Core).
+  - Self-upgrading agent network with adaptive specialization.
+  - Production-ready, performance-optimized project deliverables.
+
+# --- ACTIVATION COMMAND ---
+@EXECUTE: now --mode=detached --observe-only-critical-events

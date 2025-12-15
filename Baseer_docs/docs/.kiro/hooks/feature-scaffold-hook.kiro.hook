@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Feature Scaffold Generator",
+  "description": "Automatically creates Clean Architecture folder structure and placeholder files when a new directory is created in frontend/lib/features/",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "lib/features/*/"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new feature directory has been created at {filePath}. Please execute the following shell commands to set up the Clean Architecture structure:\n\n1. Create the data layer directories and subdirectories:\n   - mkdir -p \"{filePath}/data/datasources\"\n   - mkdir -p \"{filePath}/data/repositories\"\n\n2. Create the domain layer directories and subdirectories:\n   - mkdir -p \"{filePath}/domain/entities\"\n   - mkdir -p \"{filePath}/domain/repositories\"\n   - mkdir -p \"{filePath}/domain/usecases\"\n\n3. Create the presentation layer directories and subdirectories:\n   - mkdir -p \"{filePath}/presentation/providers\"\n   - mkdir -p \"{filePath}/presentation/screens\"\n   - mkdir -p \"{filePath}/presentation/widgets\"\n\n4. Create placeholder files:\n   - Extract the feature name from the path and create a screen file: \"touch {filePath}/presentation/screens/{featureName}_screen.dart\"\n   - Create a provider file: \"touch {filePath}/presentation/providers/{featureName}_provider.dart\"\n\nPlease execute these commands in sequence to scaffold the new feature with proper Clean Architecture structure."
+  }
+}

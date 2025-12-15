@@ -1,0 +1,26 @@
+{
+  "repository": {
+    "owner": "mohammed-murad-alqabal",
+    "name": "Baseer",
+    "url": "https://github.com/mohammed-murad-alqabal/Baseer.git",
+    "description": "🔥 Baseer: Autonomous Financial Platform with Sovereign AI Agent Ecosystem"
+  },
+  "maintainer": {
+    "name": "mohammed-murad-alqabal",
+    "email": "alqabal.dev@gmail.com",
+    "github_email": "167976641+mohammed-murad-alqabal@users.noreply.github.com"
+  },
+  "project": {
+    "name": "Baseer",
+    "arabic_name": "بصير",
+    "protocol": "Project Prometheus",
+    "status": "Autonomous Operation",
+    "version": "1.0.0"
+  },
+  "deployment": {
+    "primary_region": "me-south-1",
+    "target_market": "Saudi Arabia",
+    "compliance": ["ZATCA", "PDPL"],
+    "languages": ["Arabic", "English"]
+  }
+}

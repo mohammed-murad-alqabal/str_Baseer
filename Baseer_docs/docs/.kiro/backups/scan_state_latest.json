@@ -1,0 +1,140 @@
+{
+  "session_info": {
+    "session_id": "scan_session_20251030_143000",
+    "start_time": "2025-10-30T14:30:00Z",
+    "last_checkpoint": "2025-10-30T14:30:00Z",
+    "total_duration_minutes": 120,
+    "status": "active"
+  },
+  "scan_progress": {
+    "total_projects_discovered": 80,
+    "projects_completed": 5,
+    "projects_in_progress": 1,
+    "projects_pending": 74,
+    "completion_percentage": 6.25,
+    "current_project": {
+      "name": "Baseer_1000",
+      "path": "Archives/Baseer_1000/",
+      "current_depth": 7,
+      "max_depth_target": 10,
+      "files_scanned": 200,
+      "folders_scanned": 45,
+      "status": "scanning",
+      "start_time": "2025-10-30T14:25:00Z"
+    }
+  },
+  "completed_projects": [
+    {
+      "id": 1,
+      "name": "MyWallet الأساسي",
+      "path": "Archives/MyWallet/",
+      "depth_scanned": 15,
+      "files_count": 800,
+      "folders_count": 300,
+      "completion_time": "2025-10-30T12:00:00Z",
+      "status": "completed",
+      "has_subprojects": false
+    },
+    {
+      "id": 2,
+      "name": "Baseer MVP",
+      "path": "Archives/Baseer_mvp/Baseer_mvp/",
+      "depth_scanned": 12,
+      "files_count": 1200,
+      "folders_count": 500,
+      "completion_time": "2025-10-30T13:00:00Z",
+      "status": "completed",
+      "has_subprojects": false
+    },
+    {
+      "id": 3,
+      "name": "محفظتي العربي",
+      "path": "Archives/محفظتي/",
+      "depth_scanned": 10,
+      "files_count": 75,
+      "folders_count": 15,
+      "completion_time": "2025-10-30T13:30:00Z",
+      "status": "completed",
+      "has_subprojects": false
+    },
+    {
+      "id": 4,
+      "name": "Falcon Finance",
+      "path": "Archives/falcon-finance-hub-main/",
+      "depth_scanned": 8,
+      "files_count": 85,
+      "folders_count": 15,
+      "completion_time": "2025-10-30T14:00:00Z",
+      "status": "completed",
+      "has_subprojects": false
+    },
+    {
+      "id": 5,
+      "name": "Baseer الأساسي",
+      "path": "Archives/Baseer/",
+      "depth_scanned": 10,
+      "files_count": 30,
+      "folders_count": 5,
+      "completion_time": "2025-10-30T14:15:00Z",
+      "status": "completed",
+      "has_subprojects": false
+    }
+  ],
+  "next_projects_queue": [
+    {
+      "id": 6,
+      "name": "Baseer 1000",
+      "path": "Archives/Baseer_1000/",
+      "priority": "high",
+      "estimated_depth": 10,
+      "status": "in_progress"
+    },
+    {
+      "id": 7,
+      "name": "MyWallet Advanced",
+      "path": "Archives/MyWallet_Advanced/",
+      "priority": "high",
+      "estimated_depth": 10,
+      "status": "pending"
+    },
+    {
+      "id": 8,
+      "name": "محفظتي (صور)",
+      "path": "Archives/محفظتي (صور.)/",
+      "priority": "medium",
+      "estimated_depth": 8,
+      "status": "pending"
+    },
+    {
+      "id": 9,
+      "name": "Accounting Setup",
+      "path": "Archives/accounting-initial-project-setup/",
+      "priority": "medium",
+      "estimated_depth": 8,
+      "status": "pending"
+    },
+    {
+      "id": 10,
+      "name": "AAI",
+      "path": "Archives/AAI/",
+      "priority": "medium",
+      "estimated_depth": 8,
+      "status": "pending"
+    }
+  ],
+  "statistics": {
+    "total_files_scanned": 2200,
+    "total_folders_scanned": 800,
+    "deepest_scan_level": 15,
+    "average_scan_depth": 11,
+    "hidden_subprojects_found": 0,
+    "scan_speed_files_per_minute": 18.33,
+    "estimated_completion_time": "2025-11-05T16:00:00Z"
+  },
+  "recovery_info": {
+    "last_successful_checkpoint": "2025-10-30T14:30:00Z",
+    "backup_file_path": ".kiro/backups/scan_state_20251030_143000.json",
+    "recovery_instructions": ".kiro/backups/recovery_instructions.md",
+    "checksum": "sha256:a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456"
+  }
+}

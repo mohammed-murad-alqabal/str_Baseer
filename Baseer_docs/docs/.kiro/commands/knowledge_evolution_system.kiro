@@ -1,0 +1,248 @@
+# ================================================================
+# Kiro Engineering Command: Knowledge Evolution & Learning System
+# ================================================================
+
+@Directive: نظام تطوير المعرفة والتعلم الذكي لمشروع بصير
+@Mode: continuous_knowledge_evolution
+@Behavior: adaptive_learning_and_knowledge_synthesis
+@Scope: complete_knowledge_ecosystem
+@Context: baseer_intelligent_knowledge_management
+
+@Goal: بناء وتطوير نظام معرفة ذكي ومتطور يتعلم باستمرار من جميع جوانب المشروع
+       ويحسن من الأداء والقرارات بناءً على المعرفة المكتسبة.
+
+@Knowledge_Domains:
+
+  1. **المعرفة التقنية:**
+     - أفضل الممارسات في التطوير
+     - حلول المشاكل التقنية المكتشفة
+     - تحسينات الأداء والأمان
+     - تجارب التكامل مع الخدمات الخارجية
+     - دروس مستفادة من التطوير
+
+  2. **معرفة السوق العربي:**
+     - متطلبات المستخدمين العرب
+     - أفضل ممارسات التصميم العربي
+     - التحديات الثقافية واللغوية
+     - اتجاهات السوق المالي العربي
+     - متطلبات الامتثال المحلية
+
+  3. **معرفة ZATCA والامتثال:**
+     - تحديثات اللوائح والمتطلبات
+     - حلول مشاكل التكامل
+     - أفضل ممارسات الامتثال
+     - تجارب المستخدمين مع النظام
+     - تحسينات العمليات
+
+  4. **معرفة العمليات التجارية:**
+     - أنماط استخدام المنتج
+     - تفضيلات العملاء
+     - فعالية الميزات المختلفة
+     - تحليل الأداء التجاري
+     - استراتيجيات النمو
+
+@Intelligent_Learning_Agents:
+
+  - **Technical_Knowledge_Agent:**
+    - استخراج المعرفة من الكود والتطوير
+    - تحليل الأخطاء والحلول
+    - تحديد أفضل الممارسات
+    - توثيق الدروس المستفادة
+
+  - **Market_Intelligence_Agent:**
+    - تحليل سلوك المستخدمين العرب
+    - دراسة اتجاهات السوق
+    - تحليل المنافسة
+    - تحديد الفرص الجديدة
+
+  - **Compliance_Learning_Agent:**
+    - مراقبة تحديثات ZATCA
+    - تحليل متطلبات الامتثال
+    - تطوير حلول الامتثال
+    - تحسين العمليات التنظيمية
+
+  - **Business_Analytics_Agent:**
+    - تحليل البيانات التجارية
+    - استخراج الأنماط والاتجاهات
+    - تحليل فعالية الميزات
+    - دعم القرارات الاستراتيجية
+
+  - **Knowledge_Synthesis_Agent:**
+    - دمج المعرفة من مصادر متعددة
+    - إنشاء رؤى جديدة
+    - تحديث النماذج التنبؤية
+    - تحسين خوارزميات التعلم
+
+@Knowledge_Extraction_Framework:
+
+  1. **من الكود والتطوير:**
+     - تحليل commits والتغييرات
+     - استخراج patterns من الكود
+     - تحليل الأخطاء والإصلاحات
+     - توثيق القرارات التقنية
+
+  2. **من بيانات المستخدمين:**
+     - تحليل سلوك الاستخدام
+     - استخراج تفضيلات المستخدمين
+     - تحليل نقاط الاحتكاك
+     - قياس رضا المستخدمين
+
+  3. **من العمليات التجارية:**
+     - تحليل مؤشرات الأداء
+     - استخراج أنماط النجاح
+     - تحليل فعالية الاستراتيجيات
+     - تحديد فرص التحسين
+
+  4. **من البيئة الخارجية:**
+     - مراقبة تحديثات السوق
+     - تحليل المنافسة
+     - تتبع التغييرات التنظيمية
+     - دراسة الاتجاهات التقنية
+
+@Knowledge_Storage_Architecture:
+
+  **Structured Knowledge Base:**
+  ```
+  .kiro/knowledge/
+  ├── technical/
+  │   ├── best_practices.md
+  │   ├── solutions_library.md
+  │   ├── performance_insights.md
+  │   └── integration_experiences.md
+  ├── market/
+  │   ├── arabic_user_insights.md
+  │   ├── market_trends.md
+  │   ├── competitive_analysis.md
+  │   └── cultural_requirements.md
+  ├── compliance/
+  │   ├── zatca_knowledge.md
+  │   ├── regulatory_updates.md
+  │   ├── compliance_solutions.md
+  │   └── audit_insights.md
+  ├── business/
+  │   ├── user_behavior_patterns.md
+  │   ├── feature_effectiveness.md
+  │   ├── growth_strategies.md
+  │   └── success_metrics.md
+  └── synthesis/
+      ├── cross_domain_insights.md
+      ├── predictive_models.md
+      ├── strategic_recommendations.md
+      └── innovation_opportunities.md
+  ```
+
+  **Dynamic Knowledge Graph:**
+  - Entity relationships mapping
+  - Concept interconnections
+  - Temporal knowledge evolution
+  - Contextual knowledge retrieval
+
+@Learning_Mechanisms:
+
+  1. **Continuous Learning:**
+     - Real-time data ingestion
+     - Incremental model updates
+     - Pattern recognition improvement
+     - Adaptive algorithm tuning
+
+  2. **Experiential Learning:**
+     - A/B testing insights
+     - Feature experiment results
+     - User feedback integration
+     - Performance optimization learnings
+
+  3. **Collaborative Learning:**
+     - Team knowledge sharing
+     - Cross-functional insights
+     - External expert input
+     - Community feedback integration
+
+  4. **Predictive Learning:**
+     - Trend forecasting
+     - Risk prediction
+     - Opportunity identification
+     - Strategic planning support
+
+@Knowledge_Application_System:
+
+  **Decision Support:**
+  - Intelligent recommendations
+  - Risk assessment guidance
+  - Strategy optimization suggestions
+  - Resource allocation advice
+
+  **Automated Optimization:**
+  - Performance tuning based on learnings
+  - User experience improvements
+  - Process optimization
+  - Resource efficiency enhancement
+
+  **Innovation Pipeline:**
+  - New feature ideation
+  - Technology adoption recommendations
+  - Market opportunity identification
+  - Competitive advantage development
+
+@Quality_Assurance_Framework:
+
+  **Knowledge Validation:**
+  - Source credibility verification
+  - Data quality assessment
+  - Insight accuracy validation
+  - Bias detection and correction
+
+  **Continuous Improvement:**
+  - Knowledge effectiveness measurement
+  - Learning algorithm optimization
+  - Feedback loop enhancement
+  - Knowledge gap identification
+
+@Integration_Capabilities:
+
+  **Internal Systems:**
+  - Development tools integration
+  - Monitoring systems connection
+  - Business intelligence platforms
+  - Project management tools
+
+  **External Sources:**
+  - Market research data
+  - Regulatory update feeds
+  - Industry best practices
+  - Academic research integration
+
+@Success_Metrics:
+
+  **Knowledge Quality:**
+  - Accuracy of predictions: > 85%
+  - Relevance of recommendations: > 90%
+  - Knowledge freshness: < 24 hours
+  - Coverage completeness: > 95%
+
+  **Business Impact:**
+  - Decision quality improvement: > 40%
+  - Problem resolution speed: > 50% faster
+  - Innovation rate increase: > 30%
+  - Risk reduction: > 60%
+
+@Execution_Modes:
+
+  # تفعيل نظام التعلم الكامل
+  kiro run .kiro/commands/knowledge_evolution_system.kiro --mode=full_learning
+
+  # تعلم مخصص
+  kiro run .kiro/commands/knowledge_evolution_system.kiro --domain=technical
+  kiro run .kiro/commands/knowledge_evolution_system.kiro --domain=market
+  kiro run .kiro/commands/knowledge_evolution_system.kiro --domain=compliance
+
+  # تحليل وتوليف المعرفة
+  kiro run .kiro/commands/knowledge_evolution_system.kiro --synthesize=insights
+  kiro run .kiro/commands/knowledge_evolution_system.kiro --predict=trends
+  kiro run .kiro/commands/knowledge_evolution_system.kiro --recommend=strategies
+
+@Output_Deliverables:
+  - قاعدة معرفة ذكية ومتطورة باستمرار
+  - نظام توصيات ذكي للقرارات
+  - نماذج تنبؤية متقدمة
+  - رؤى استراتيجية مبنية على البيانات
+  - نظام تعلم تكيفي ومحسن ذاتياً

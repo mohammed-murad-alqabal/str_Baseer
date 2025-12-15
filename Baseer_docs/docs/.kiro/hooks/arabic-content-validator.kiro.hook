@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "name": "Arabic Content Validator",
+  "description": "Validates Arabic text direction, RTL support, and localization keys in translation files and Arabic-specific Dart files",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "assets/translations/*.json",
+      "**/*_ar.dart",
+      "**/rtl_*.dart",
+      "**/arabic_*.dart"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "An Arabic content or RTL-related file has been modified. Please validate the following:\n\n1. **Translation Files**: Ensure JSON structure is valid and Arabic text is properly encoded\n2. **RTL Support**: Verify that RTL widgets and utilities follow proper text direction\n3. **Arabic Text**: Check for proper Arabic character encoding and text flow\n4. **Localization Keys**: Ensure consistency between Arabic and English translation keys\n5. **Cultural Context**: Verify that Arabic content follows cultural and linguistic best practices\n\nProvide specific feedback on any issues found and suggest corrections that align with Arabic UI/UX standards."
+  }
+}

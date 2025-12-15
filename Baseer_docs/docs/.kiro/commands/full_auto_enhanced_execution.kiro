@@ -1,0 +1,64 @@
+# ================================================================
+# Kiro Engineering Command: Full Autonomous Enhancement & Knowledge Evolution
+# ================================================================
+
+@Directive: Initiate full-spectrum autonomous enhancement, orchestration, documentation, and self-learning cycle.
+@Mode: full_autonomy
+@Behavior: recursive_self_optimization_and_knowledge_evolution
+@Scope: global_project_ecosystem
+
+@Goal: Enable Kiro to autonomously enhance, document, and evolve all components of the project — technical, strategic, operational, and knowledge-based — while maintaining optimal precision, scalability, and adaptability.
+
+@Core_Principles:
+  - Zero manual supervision; full agent-driven control.
+  - Continuous self-audit and validation of processes and artifacts.
+  - Knowledge-first evolution: learn from every decision, artifact, and event.
+  - Alignment with Kiro best practices and system-wide optimization heuristics.
+
+@Tasks:
+  1. **Deep Structural Analysis:**
+     - Parse and evaluate all project layers: architecture, logic, dependencies, and workflows.
+     - Detect inefficiencies, risks, and optimization opportunities.
+  
+  2. **Autonomous Enhancement:**
+     - Rewrite, refactor, and improve every subsystem as needed.
+     - Enhance modularity, reusability, and maintainability.
+     - Integrate state-of-the-art design and coding standards.
+  
+  3. **Self-Documentation Layer:**
+     - Auto-generate and maintain full documentation (architecture, API, logic, workflow).
+     - Version all documentation synchronously with code changes.
+     - Use Markdown and structured schema formats for clarity and automation.
+  
+  4. **Knowledge Base Synchronization:**
+     - Extract all insights, metrics, and events into a unified knowledge base.
+     - Train internal AI agents to use this base for predictive improvements.
+     - Maintain real-time synchronization between project evolution and learning outcomes.
+
+  5. **Self-Governance Protocol:**
+     - Apply policy validation, security compliance (ISO/IEC, OWASP, DevSecOps).
+     - Implement adaptive decision-making and resource allocation mechanisms.
+  
+  6. **Continuous Deployment & Monitoring:**
+     - Automate build, test, and deployment pipelines.
+     - Establish continuous feedback loops for benchmarking and anomaly correction.
+  
+  7. **Evolutionary Intelligence Loop:**
+     - Periodically assess new frameworks, libraries, and models.
+     - Upgrade internal heuristics and architecture autonomously.
+
+  8. **Meta-Optimization Cycle:**
+     - Continuously evaluate performance across agents.
+     - Auto-adjust internal strategies for cost, precision, and scalability.
+  
+  9. **Strategic Reporting Layer:**
+     - Provide summarized insights only for critical review.
+     - Generate adaptive reports for strategic foresight and planning.
+
+@Knowledge_Integration:
+  - Store all results in `.kiro/knowledge/`.
+  - Auto-generate AI-ready datasets for fine-tuning and inference.
+  - Ensure structured semantic tagging for all assets.
+
+@Execution:
+  kiro run .kiro/commands/full_autonomous_orchestration.kiro

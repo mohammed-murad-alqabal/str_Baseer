@@ -1,0 +1,38 @@
+# ======================================================
+# Kiro Engineering Command: Auto Governance & Compliance
+# ======================================================
+
+@Directive: Establish autonomous governance, compliance, and policy-intelligence systems across the full software ecosystem.
+@Mode: self_governing_autonomy
+@Behavior: continuous_policy_validation_and_self_regulation
+@Scope: global_project_and_operational_layers
+
+@Goal: Enable Kiro to automatically monitor, validate, and enforce adherence to technical, legal, and ethical standards throughout all stages of project development and deployment.
+
+@Governance_Principles:
+  - Compliance with international standards (ISO/IEC 27001, OWASP, GDPR, SOC 2).
+  - Enforcement of secure coding and privacy-by-design principles.
+  - Autonomous auditing and policy revision cycles.
+  - Zero manual oversight; adaptive response to compliance deviations.
+
+@Tasks:
+  1. **Policy Discovery & Definition:**
+     - Analyze all existing project policies, codebases, and configurations.
+     - Generate a unified governance schema under `.kiro/policies/`.
+
+  2. **Continuous Compliance Validation:**
+     - Run automated scans for violations, misconfigurations, and risk vectors.
+     - Apply fixes autonomously when within permitted boundaries.
+     - Escalate critical issues to user via structured report.
+
+  3. **Self-Auditing & Reporting:**
+     - Maintain ongoing self-assessment cycles.
+     - Generate compliance metrics and benchmark reports automatically.
+     - Store reports under `.kiro/logs/governance/`.
+
+  4. **Adaptive Learning:**
+     - Update policy engine with each cycle to reflect new regulatory frameworks.
+     - Integrate findings into `.kiro/knowledge/` for long-term optimization.
+
+@Execution:
+  kiro run .kiro/commands/auto_governance_and_compliance.kiro

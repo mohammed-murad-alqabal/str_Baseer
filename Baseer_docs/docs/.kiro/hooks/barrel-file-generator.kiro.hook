@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Barrel File Generator",
+  "description": "Automatically creates or updates barrel files (e.g., 'widgets.dart') in directories when new '.dart' files are added to any subdirectory of 'frontend/lib/features/' or 'frontend/lib/shared/'. The barrel file exports all '.dart' files within the same directory.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "lib/features/**/*.dart",
+      "lib/shared/**/*.dart"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new Dart file has been created in the Flutter project. Please analyze the parent directory of the new file and create or update a barrel file in that directory. The barrel file should:\n\n1. Be named appropriately based on the directory (e.g., 'widgets.dart' for a widgets directory, 'models.dart' for a models directory, etc.)\n2. Export all '.dart' files in the same directory using relative imports\n3. Follow Dart naming conventions and best practices\n4. Include a header comment explaining the purpose of the barrel file\n\nIf a barrel file already exists, update it to include the new file. Ensure the exports are sorted alphabetically for consistency."
+  }
+}

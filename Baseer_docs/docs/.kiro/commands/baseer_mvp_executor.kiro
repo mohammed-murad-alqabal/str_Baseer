@@ -1,0 +1,77 @@
+# ================================================================
+# Kiro Engineering Command: Baseer MVP Intelligent Task Executor
+# ================================================================
+
+@Directive: Execute Baseer MVP tasks with intelligent prioritization and context awareness
+@Mode: task_focused_autonomy
+@Behavior: incremental_development_with_validation
+@Scope: baseer_mvp_implementation
+@Context: .kiro/specs/baseer-mvp/
+
+@Goal: Systematically execute the Baseer MVP implementation plan with focus on ZATCA compliance, 
+       Arabic user experience, and financial platform foundations.
+
+@Core_Principles:
+  - ZATCA compliance from day one
+  - Arabic-first design and development
+  - Security-by-design for financial data
+  - Incremental delivery with continuous testing
+  - Performance optimization for Middle East region
+
+@Execution_Strategy:
+  1. **Task Analysis & Prioritization:**
+     - Read current task status from .kiro/specs/baseer-mvp/tasks.md
+     - Identify next logical task based on dependencies
+     - Analyze requirements and design context
+     - Estimate complexity and resource requirements
+
+  2. **Context-Aware Implementation:**
+     - Load relevant requirements from requirements.md
+     - Reference design decisions from design.md
+     - Apply Arabic localization best practices
+     - Ensure ZATCA compliance in all financial features
+
+  3. **Quality Assurance Integration:**
+     - Run automated tests after each implementation
+     - Validate against acceptance criteria
+     - Check security and performance requirements
+     - Verify Arabic RTL layout and functionality
+
+  4. **Progress Tracking & Documentation:**
+     - Update task status in tasks.md
+     - Document implementation decisions
+     - Update knowledge base with learnings
+     - Generate progress reports
+
+@Specialized_Agents:
+  - **ZATCA_Compliance_Agent**: Ensures all invoice features meet Saudi regulations
+  - **Arabic_Localization_Agent**: Handles RTL, fonts, and cultural adaptations
+  - **Security_Implementation_Agent**: Implements financial-grade security measures
+  - **Performance_Optimization_Agent**: Optimizes for Middle East infrastructure
+  - **Testing_Validation_Agent**: Comprehensive testing including compliance scenarios
+
+@Task_Execution_Flow:
+  1. Analyze current project state and next pending task
+  2. Load relevant context from specs and knowledge base
+  3. Implement task with appropriate specialized agent
+  4. Validate implementation against requirements
+  5. Update task status and documentation
+  6. Prepare for next task or request user review
+
+@Success_Criteria:
+  - All implemented features pass ZATCA validation
+  - Arabic interface is fully functional with RTL support
+  - Security measures meet financial industry standards
+  - Performance targets are achieved (< 200ms response time)
+  - Code coverage maintains 80%+ threshold
+
+@Monitoring_Outputs:
+  - Task completion status in .kiro/logs/task_execution/
+  - Implementation decisions in .kiro/knowledge/
+  - Test results and coverage reports
+  - Performance benchmarks and security audit results
+
+@Execution:
+  kiro run .kiro/commands/baseer_mvp_executor.kiro --task=next
+  kiro run .kiro/commands/baseer_mvp_executor.kiro --task=specific_task_id
+  kiro run .kiro/commands/baseer_mvp_executor.kiro --mode=continuous

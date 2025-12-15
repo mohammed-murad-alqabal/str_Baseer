@@ -1,0 +1,174 @@
+# ================================================================
+# Kiro Engineering Command: Intelligent Project Lifecycle Manager
+# ================================================================
+
+@Directive: Orchestrate complete project lifecycle with intelligent phase management and quality gates
+@Mode: lifecycle_orchestration
+@Behavior: phase_aware_intelligent_management
+@Scope: complete_project_lifecycle
+@Context: baseer_mvp_to_production
+
+@Goal: Manage the entire Baseer project lifecycle from development through production,
+       ensuring quality, compliance, and optimal resource utilization at each phase.
+
+@Lifecycle_Phases:
+
+  1. **Development Phase:**
+     - Task execution and feature implementation
+     - Continuous integration and testing
+     - Code quality and security validation
+     - Arabic localization and RTL testing
+     - ZATCA compliance verification
+
+  2. **Testing Phase:**
+     - Comprehensive test suite execution
+     - Performance and load testing
+     - Security penetration testing
+     - ZATCA integration testing
+     - User acceptance testing preparation
+
+  3. **Staging Phase:**
+     - Production-like environment deployment
+     - End-to-end integration testing
+     - Performance benchmarking
+     - Security audit and compliance check
+     - User training and documentation
+
+  4. **Production Phase:**
+     - Blue-green deployment execution
+     - Real-time monitoring activation
+     - Performance optimization
+     - User onboarding and support
+     - Continuous improvement cycle
+
+@Phase_Management_Agents:
+
+  - **Development_Orchestrator_Agent:**
+    - Task prioritization and execution
+    - Code quality enforcement
+    - Integration management
+    - Developer productivity optimization
+
+  - **Quality_Assurance_Agent:**
+    - Test strategy execution
+    - Quality gate enforcement
+    - Bug tracking and resolution
+    - Performance validation
+
+  - **Deployment_Manager_Agent:**
+    - Environment provisioning
+    - Deployment automation
+    - Rollback capability management
+    - Infrastructure optimization
+
+  - **Production_Operations_Agent:**
+    - Live system monitoring
+    - Incident response and resolution
+    - Performance optimization
+    - User support coordination
+
+@Quality_Gates:
+
+  1. **Development to Testing:**
+     - All critical features implemented
+     - Code coverage > 80%
+     - Security scan passed
+     - Arabic RTL functionality verified
+     - ZATCA integration functional
+
+  2. **Testing to Staging:**
+     - All tests passing
+     - Performance benchmarks met
+     - Security audit completed
+     - Load testing successful
+     - Documentation complete
+
+  3. **Staging to Production:**
+     - User acceptance testing passed
+     - Production readiness checklist complete
+     - Disaster recovery tested
+     - Monitoring systems active
+     - Support processes ready
+
+@Intelligent_Decision_Making:
+
+  1. **Phase Transition Logic:**
+     - Automated quality gate evaluation
+     - Risk assessment and mitigation
+     - Resource availability checking
+     - Stakeholder approval workflow
+     - Rollback plan validation
+
+  2. **Resource Optimization:**
+     - Dynamic resource allocation
+     - Cost optimization across phases
+     - Performance tuning
+     - Capacity planning
+     - Efficiency improvement
+
+  3. **Risk Management:**
+     - Continuous risk assessment
+     - Mitigation strategy execution
+     - Contingency plan activation
+     - Issue escalation management
+     - Recovery procedure automation
+
+@Monitoring_and_Analytics:
+
+  - **Phase Progress Tracking:**
+    - Real-time progress dashboards
+    - Milestone completion tracking
+    - Resource utilization monitoring
+    - Quality metrics analysis
+
+  - **Performance Analytics:**
+    - Development velocity tracking
+    - Quality trend analysis
+    - Deployment success rates
+    - Production performance metrics
+
+  - **Business Intelligence:**
+    - Feature adoption rates
+    - User satisfaction metrics
+    - Revenue impact analysis
+    - Market feedback integration
+
+@Automation_Capabilities:
+
+  1. **Development Automation:**
+     - Automated code review and testing
+     - Continuous integration pipelines
+     - Dependency management
+     - Security vulnerability scanning
+
+  2. **Deployment Automation:**
+     - Infrastructure as Code execution
+     - Blue-green deployment orchestration
+     - Database migration management
+     - Configuration management
+
+  3. **Operations Automation:**
+     - Auto-scaling and load balancing
+     - Incident detection and response
+     - Backup and recovery procedures
+     - Performance optimization
+
+@Success_Criteria:
+
+  - **Development Phase:**
+    - All MVP features implemented
+    - Quality gates passed
+    - ZATCA compliance achieved
+    - Arabic experience optimized
+
+  - **Production Phase:**
+    - 99.99% uptime achieved
+    - < 200ms response time maintained
+    - Zero critical security issues
+    - Positive user feedback (NPS > 40)
+
+@Execution_Commands:
+  kiro run .kiro/commands/project_lifecycle_manager.kiro --phase=current
+  kiro run .kiro/commands/project_lifecycle_manager.kiro --transition=next
+  kiro run .kiro/commands/project_lifecycle_manager.kiro --gate=evaluate
+  kiro run .kiro/commands/project_lifecycle_manager.kiro --emergency=rollback

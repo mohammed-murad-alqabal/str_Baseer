@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Static Code Analyzer",
+  "description": "Automatically runs Flutter analyze on saved Dart files to detect code issues, style violations, and potential bugs",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.dart"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A Dart file has been saved. Please run 'flutter analyze' on the saved file and report any issues found. Focus on:\n1. Syntax errors and compilation issues\n2. Linting violations and style issues  \n3. Potential runtime errors or bugs\n4. Performance concerns\n5. Best practice violations\n\nProvide a clear summary of any issues discovered and suggest specific fixes where applicable."
+  }
+}

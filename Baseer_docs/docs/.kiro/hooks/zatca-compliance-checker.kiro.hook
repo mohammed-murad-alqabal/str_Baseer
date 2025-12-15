@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "name": "ZATCA Compliance Checker",
+  "description": "Validates ZATCA e-invoicing compliance requirements, QR code generation, digital signatures, and tax authority integration",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/zatca*.dart",
+      "**/zatca*.go",
+      "**/invoice*.dart",
+      "**/invoice*.go",
+      "**/tax*.dart",
+      "**/tax*.go",
+      "**/qr_code*.dart",
+      "**/digital_signature*.dart"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A ZATCA compliance-related file has been modified. Please validate the following:\n\n1. **E-Invoice Structure**: Ensure invoice data structure complies with ZATCA XML/JSON schema\n2. **QR Code Generation**: Verify QR code contains required fields (seller info, VAT, total, hash)\n3. **Digital Signatures**: Check cryptographic signature implementation and certificate handling\n4. **Tax Calculations**: Validate VAT calculations and tax exemption handling\n5. **API Integration**: Ensure proper ZATCA API endpoints and authentication\n6. **Data Validation**: Check required fields, formats, and business rules compliance\n7. **Error Handling**: Verify proper handling of ZATCA API errors and validation failures\n8. **Security**: Ensure secure handling of certificates and sensitive tax data\n\nProvide specific feedback on ZATCA compliance and suggest corrections to meet Saudi Arabia's e-invoicing requirements."
+  }
+}

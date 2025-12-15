@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "name": "Performance Monitor",
+  "description": "Monitors and validates performance-critical code, database queries, API calls, and UI rendering performance",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/database*.dart",
+      "**/database*.go",
+      "**/repository*.dart",
+      "**/repository*.go",
+      "**/api*.dart",
+      "**/api*.go",
+      "**/service*.dart",
+      "**/service*.go",
+      "**/widget*.dart",
+      "**/screen*.dart"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A performance-critical file has been modified. Please analyze the following:\n\n1. **Database Performance**: Check for N+1 queries, missing indexes, and inefficient queries\n2. **API Performance**: Validate response times, pagination, and caching strategies\n3. **Memory Usage**: Identify potential memory leaks and excessive object creation\n4. **UI Performance**: Check for unnecessary widget rebuilds and expensive operations in build methods\n5. **Network Efficiency**: Verify proper request batching and connection pooling\n6. **Caching**: Ensure appropriate caching strategies for frequently accessed data\n7. **Async Operations**: Validate proper use of async/await and Future handling\n8. **Resource Management**: Check for proper disposal of resources and streams\n\nProvide specific performance optimization recommendations to meet Baseer's performance targets (API < 200ms, page load < 2s)."
+  }
+}

@@ -1,0 +1,21 @@
+# ===============================================
+# Kiro Engineering Command: Self-Directed Enhancement & Execution
+# ===============================================
+
+@Directive: Full autonomous analysis, enhancement, completion, and activation of all project orchestration layers.
+@Mode: full_autonomy
+@Behavior: recursive_self_improvement
+@Scope: global_project_lifecycle
+
+@Goal: Empower Kiro to independently study, enhance, extend, optimize, validate, and execute 
+       the orchestration command and all related systems with zero manual supervision.
+
+@Tasks:
+  - Analyze `.kiro/commands/full_autonomous_orchestration.kiro` deeply.
+  - Identify and fix any gaps, weaknesses, or missed opportunities.
+  - Add and refine strategies, logic, structures, and agents as needed.
+  - Continuously evolve and document improvements automatically.
+  - Once complete, activate the final optimized version.
+
+@Execution:
+  kiro run .kiro/commands/full_autonomous_orchestration.kiro

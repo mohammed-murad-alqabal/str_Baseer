@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "name": "Auto-Formatter",
+  "description": "Automatically formats Dart and Go files when saved using dart format and go fmt respectively",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*.dart",
+      "**/*.go"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A file has been saved that needs formatting. If it's a .dart file, run 'dart format' on it. If it's a .go file, run 'go fmt' on it. Format the file and confirm the formatting was applied successfully."
+  }
+}

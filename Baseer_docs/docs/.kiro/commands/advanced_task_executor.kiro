@@ -1,0 +1,248 @@
+# ================================================================
+# Kiro Engineering Command: Advanced Intelligent Task Executor
+# ================================================================
+
+@Directive: منفذ المهام الذكي المتقدم لمشروع بصير مع التحليل العميق والتنفيذ المحسن
+@Mode: intelligent_task_execution_with_deep_analysis
+@Behavior: context_aware_adaptive_implementation
+@Scope: baseer_mvp_complete_implementation
+@Context: arabic_financial_platform_zatca_compliant
+
+@Goal: تنفيذ مهام مشروع بصير بذكاء متقدم مع فهم عميق للسياق والمتطلبات
+       وضمان الجودة العالية والامتثال الكامل.
+
+@Advanced_Execution_Framework:
+
+  1. **التحليل العميق للمهام:**
+     - فهم السياق الكامل للمهمة
+     - تحليل التبعيات والمتطلبات
+     - تقييم التعقيد والمخاطر
+     - تحديد أفضل استراتيجية للتنفيذ
+
+  2. **التخطيط الذكي:**
+     - وضع خطة تنفيذ مفصلة
+     - تحديد نقاط التحقق والجودة
+     - إعداد اختبارات التحقق
+     - تحضير خطط الطوارئ
+
+  3. **التنفيذ المتكيف:**
+     - تنفيذ تدريجي مع مراقبة مستمرة
+     - تكيف مع التحديات الطارئة
+     - تحسين الأداء أثناء التنفيذ
+     - ضمان الجودة في كل خطوة
+
+  4. **التحقق والتحسين:**
+     - اختبار شامل للنتائج
+     - تحقق من الامتثال والمعايير
+     - تحسين الكود والأداء
+     - توثيق الدروس المستفادة
+
+@Specialized_Task_Agents:
+
+  - **Database_Architecture_Agent:**
+    - تصميم وتنفيذ قواعد البيانات
+    - تحسين الاستعلامات والفهارس
+    - إدارة الهجرة والنسخ الاحتياطي
+    - ضمان الأمان وسلامة البيانات
+
+  - **Authentication_Security_Agent:**
+    - تنفيذ أنظمة المصادقة المتقدمة
+    - إدارة الجلسات والرموز المميزة
+    - تطبيق المصادقة متعددة العوامل
+    - ضمان الأمان والامتثال
+
+  - **ZATCA_Integration_Agent:**
+    - تطوير تكامل ZATCA المتقدم
+    - إدارة الشهادات والتوقيعات
+    - تحسين عمليات الإرسال
+    - ضمان الامتثال الكامل
+
+  - **Arabic_UI_Agent:**
+    - تطوير واجهات عربية محسنة
+    - تطبيق دعم RTL الكامل
+    - تحسين الخطوط والتصميم
+    - ضمان التجربة الثقافية المناسبة
+
+  - **Payment_Integration_Agent:**
+    - تطوير تكاملات الدفع المتقدمة
+    - إدارة بوابات الدفع المتعددة
+    - تحسين معدلات النجاح
+    - ضمان الأمان المالي
+
+  - **Performance_Optimization_Agent:**
+    - تحليل وتحسين الأداء
+    - تطبيق استراتيجيات التخزين المؤقت
+    - تحسين استهلاك الموارد
+    - ضمان الاستجابة السريعة
+
+@Task_Execution_Methodology:
+
+  **Phase 1: Deep Analysis (15-30 minutes)**
+  ```
+  1. قراءة وفهم متطلبات المهمة بالتفصيل
+  2. تحليل السياق من المواصفات والتصميم
+  3. دراسة الكود الموجود والبنية الحالية
+  4. تحديد التحديات والمخاطر المحتملة
+  5. وضع استراتيجية التنفيذ المثلى
+  ```
+
+  **Phase 2: Strategic Planning (10-20 minutes)**
+  ```
+  1. تقسيم المهمة إلى خطوات قابلة للتنفيذ
+  2. تحديد نقاط التحقق والاختبار
+  3. إعداد البيئة والأدوات المطلوبة
+  4. تحضير اختبارات التحقق من الجودة
+  5. وضع خطة للتعامل مع المشاكل المحتملة
+  ```
+
+  **Phase 3: Intelligent Implementation (60-120 minutes)**
+  ```
+  1. تنفيذ تدريجي مع مراقبة مستمرة
+  2. اختبار كل جزء قبل الانتقال للتالي
+  3. تحسين الكود والأداء أثناء التطوير
+  4. ضمان الامتثال للمعايير والمتطلبات
+  5. توثيق القرارات والتغييرات المهمة
+  ```
+
+  **Phase 4: Comprehensive Validation (20-40 minutes)**
+  ```
+  1. اختبار شامل لجميع الوظائف
+  2. فحص الأمان والامتثال
+  3. اختبار الأداء والاستجابة
+  4. التحقق من دعم اللغة العربية
+  5. مراجعة الكود وتحسين الجودة
+  ```
+
+@Quality_Assurance_Framework:
+
+  **Code Quality Standards:**
+  - Clean code principles
+  - SOLID design patterns
+  - Comprehensive error handling
+  - Security best practices
+  - Performance optimization
+
+  **Arabic Experience Standards:**
+  - Complete RTL support
+  - Proper Arabic typography
+  - Cultural appropriateness
+  - Accessibility compliance
+  - Mobile responsiveness
+
+  **ZATCA Compliance Standards:**
+  - Regulation adherence
+  - Digital signature validation
+  - QR code generation
+  - Invoice format compliance
+  - API integration standards
+
+  **Security Standards:**
+  - Data encryption (AES-256)
+  - Secure communication (TLS 1.3)
+  - Authentication security
+  - Authorization controls
+  - Audit trail maintenance
+
+@Advanced_Testing_Strategy:
+
+  1. **Unit Testing:**
+     - Comprehensive test coverage (>90%)
+     - Edge case validation
+     - Error condition testing
+     - Performance benchmarking
+
+  2. **Integration Testing:**
+     - API endpoint validation
+     - Database integration testing
+     - External service integration
+     - End-to-end workflow testing
+
+  3. **Arabic-Specific Testing:**
+     - RTL layout validation
+     - Arabic text rendering
+     - Font loading and display
+     - Cultural content appropriateness
+
+  4. **ZATCA Compliance Testing:**
+     - Invoice validation testing
+     - Digital signature verification
+     - QR code generation testing
+     - API integration validation
+
+@Performance_Optimization_Strategy:
+
+  **Database Optimization:**
+  - Query performance tuning
+  - Index optimization
+  - Connection pooling
+  - Caching strategies
+
+  **API Optimization:**
+  - Response time optimization
+  - Payload size reduction
+  - Caching implementation
+  - Rate limiting
+
+  **Frontend Optimization:**
+  - Bundle size optimization
+  - Lazy loading implementation
+  - Image optimization
+  - Arabic font optimization
+
+@Continuous_Learning_Integration:
+
+  **Knowledge Extraction:**
+  - Document implementation decisions
+  - Record performance insights
+  - Capture best practices
+  - Note optimization opportunities
+
+  **Knowledge Application:**
+  - Apply learned patterns
+  - Reuse successful solutions
+  - Avoid known pitfalls
+  - Implement proven optimizations
+
+@Success_Validation_Criteria:
+
+  **Functional Success:**
+  - All requirements implemented correctly
+  - All tests passing (>95% coverage)
+  - No critical bugs or issues
+  - Performance targets met
+
+  **Quality Success:**
+  - Code quality standards met
+  - Security requirements satisfied
+  - Arabic experience optimized
+  - ZATCA compliance verified
+
+  **Business Success:**
+  - User experience enhanced
+  - Performance improved
+  - Scalability maintained
+  - Maintainability ensured
+
+@Execution_Commands:
+
+  # تنفيذ المهمة التالية بذكاء متقدم
+  kiro run .kiro/commands/advanced_task_executor.kiro --task=next --mode=intelligent
+
+  # تنفيذ مهمة محددة
+  kiro run .kiro/commands/advanced_task_executor.kiro --task="3.1 Create database migration system"
+
+  # تنفيذ مع تركيز خاص
+  kiro run .kiro/commands/advanced_task_executor.kiro --focus=zatca_compliance
+  kiro run .kiro/commands/advanced_task_executor.kiro --focus=arabic_experience
+  kiro run .kiro/commands/advanced_task_executor.kiro --focus=performance
+
+  # تحليل وتخطيط فقط
+  kiro run .kiro/commands/advanced_task_executor.kiro --analyze_only=true
+  kiro run .kiro/commands/advanced_task_executor.kiro --plan_only=true
+
+@Output_Deliverables:
+  - تنفيذ عالي الجودة للمهام المطلوبة
+  - كود محسن ومتوافق مع المعايير
+  - اختبارات شاملة ومتكاملة
+  - توثيق مفصل للتنفيذ والقرارات
+  - دروس مستفادة وأفضل ممارسات محدثة

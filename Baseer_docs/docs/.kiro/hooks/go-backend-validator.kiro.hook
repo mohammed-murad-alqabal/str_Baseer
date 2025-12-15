@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "name": "Go Backend Validator",
+  "description": "Validates Go backend code, modules, dependencies, and follows Go best practices for the Baseer microservices architecture",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "backend/**/*.go",
+      "backend/go.mod",
+      "backend/go.sum",
+      "backend/Makefile"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A Go backend file has been modified. Please validate the following:\n\n1. **Code Quality**: Run 'go vet' and 'golint' to check for code issues\n2. **Module Dependencies**: Verify go.mod and go.sum integrity with 'go mod tidy'\n3. **Security**: Check for potential security vulnerabilities using 'gosec'\n4. **Performance**: Identify potential performance bottlenecks\n5. **API Standards**: Ensure RESTful API design and proper HTTP status codes\n6. **Microservices Architecture**: Verify service boundaries and proper separation of concerns\n7. **Error Handling**: Check for proper error handling and logging\n\nProvide actionable feedback and suggest improvements that align with Go best practices and Baseer's microservices architecture."
+  }
+}

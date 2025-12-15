@@ -1,0 +1,97 @@
+{
+  "mcpServers": {
+    "git": {
+      "command": "uvx",
+      "args": ["mcp-server-git@latest", "--repository", "."],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "git_status",
+        "git_log",
+        "git_diff",
+        "git_diff_unstaged",
+        "git_diff_staged",
+        "git_commit",
+        "git_add",
+        "git_create_branch",
+        "git_checkout",
+        "git_show",
+        "git_branch",
+        "git_reset"
+      ]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": ["fetch"]
+    },
+    "sqlite": {
+      "command": "uvx",
+      "args": ["mcp-server-sqlite@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "read_query",
+        "write_query",
+        "create_table",
+        "list_tables",
+        "describe_table",
+        "append_insight"
+      ]
+    },
+    "time": {
+      "command": "uvx",
+      "args": ["mcp-server-time@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": ["get_current_time", "convert_time"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "read_file",
+        "list_directory",
+        "read_multiple_files",
+        "create_directory",
+        "directory_tree"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "search_repositories",
+        "get_file_contents",
+        "list_issues",
+        "get_issue",
+        "list_pull_requests",
+        "get_pull_request",
+        "get_pull_request_files",
+        "list_commits",
+        "search_code",
+        "search_issues",
+        "search_users"
+      ]
+    }
+  }
+}

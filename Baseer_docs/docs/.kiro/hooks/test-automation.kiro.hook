@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "name": "Test Automation",
+  "description": "Automatically runs relevant tests when code changes are made and ensures proper test coverage",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "lib/**/*.dart",
+      "backend/**/*.go",
+      "test/**/*.dart",
+      "backend/**/*_test.go"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Code has been modified that may require testing. Please perform the following:\n\n1. **Identify Test Files**: Find related test files for the modified code\n2. **Run Unit Tests**: Execute relevant unit tests for the changed components\n3. **Check Test Coverage**: Verify that new code has adequate test coverage\n4. **Integration Tests**: Run integration tests if API or service layer changes were made\n5. **Widget Tests**: For Flutter UI changes, run widget tests to ensure UI integrity\n6. **Test Quality**: Review test assertions and ensure they cover edge cases\n7. **Mock Validation**: Check that mocks and stubs are properly configured\n8. **Performance Tests**: For critical paths, suggest performance test scenarios\n\nProvide a summary of test results and recommendations for improving test coverage or test quality."
+  }
+}

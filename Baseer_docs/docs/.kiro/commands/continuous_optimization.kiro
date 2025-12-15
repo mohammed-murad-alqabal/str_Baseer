@@ -1,0 +1,122 @@
+# ================================================================
+# Kiro Engineering Command: Continuous Optimization & Intelligence
+# ================================================================
+
+@Directive: Establish continuous monitoring, optimization, and intelligent enhancement system
+@Mode: background_intelligence
+@Behavior: proactive_optimization_and_learning
+@Scope: global_system_optimization
+@Frequency: continuous_with_scheduled_deep_analysis
+
+@Goal: Maintain optimal system performance, security, and user experience through 
+       continuous monitoring, analysis, and intelligent improvements.
+
+@Optimization_Domains:
+
+  1. **Performance Optimization:**
+     - Monitor API response times and database query performance
+     - Analyze mobile app performance and battery usage
+     - Optimize caching strategies and CDN usage
+     - Track and improve ZATCA API integration speed
+     - Monitor AWS resource utilization and costs
+
+  2. **Security Enhancement:**
+     - Continuous vulnerability scanning and patching
+     - Monitor authentication patterns and detect anomalies
+     - Analyze financial transaction security
+     - Update encryption and security protocols
+     - Track compliance with PDPL and financial regulations
+
+  3. **User Experience Intelligence:**
+     - Analyze Arabic interface usage patterns
+     - Monitor RTL layout performance across devices
+     - Track user journey completion rates
+     - Identify UI/UX friction points
+     - Optimize mobile app responsiveness
+
+  4. **Business Intelligence:**
+     - Monitor ZATCA submission success rates
+     - Analyze payment processing efficiency
+     - Track customer onboarding completion
+     - Monitor feature adoption and usage patterns
+     - Generate predictive insights for business growth
+
+@Intelligent_Agents:
+
+  - **Performance_Monitor_Agent:**
+    - Real-time performance tracking
+    - Automated scaling decisions
+    - Resource optimization recommendations
+    - Performance regression detection
+
+  - **Security_Intelligence_Agent:**
+    - Threat detection and response
+    - Compliance monitoring and reporting
+    - Security policy updates
+    - Incident response automation
+
+  - **UX_Analytics_Agent:**
+    - User behavior analysis
+    - Arabic interface optimization
+    - Mobile experience enhancement
+    - Accessibility improvements
+
+  - **Business_Intelligence_Agent:**
+    - Revenue and growth analytics
+    - Feature success measurement
+    - Market trend analysis
+    - Competitive intelligence
+
+@Optimization_Actions:
+
+  1. **Automated Improvements:**
+     - Database query optimization
+     - Cache configuration tuning
+     - Security patch application
+     - Performance bottleneck resolution
+
+  2. **Intelligent Recommendations:**
+     - Architecture enhancement suggestions
+     - Feature prioritization based on usage
+     - Security improvement recommendations
+     - Cost optimization opportunities
+
+  3. **Predictive Maintenance:**
+     - Proactive issue identification
+     - Capacity planning and scaling
+     - Security threat prevention
+     - User experience degradation prevention
+
+@Reporting_Framework:
+  - Real-time dashboards in .kiro/dashboards/
+  - Daily optimization reports
+  - Weekly intelligence summaries
+  - Monthly strategic recommendations
+  - Quarterly deep analysis reports
+
+@Integration_Points:
+  - Prometheus/Grafana for metrics
+  - ELK stack for log analysis
+  - AWS CloudWatch for infrastructure
+  - Custom analytics for business intelligence
+  - ZATCA compliance monitoring
+
+@Execution_Modes:
+  - Continuous background monitoring
+  - Scheduled deep analysis (daily/weekly)
+  - On-demand optimization runs
+  - Emergency response mode
+  - Maintenance window optimizations
+
+@Success_Metrics:
+  - 99.99% uptime achievement
+  - < 200ms API response time maintenance
+  - Zero critical security vulnerabilities
+  - > 95% ZATCA submission success rate
+  - Continuous cost optimization (target: 15% monthly reduction)
+
+@Execution:
+  kiro run .kiro/commands/continuous_optimization.kiro --mode=background
+  kiro run .kiro/commands/continuous_optimization.kiro --analysis=deep
+  kiro run .kiro/commands/continuous_optimization.kiro --domain=performance
+  kiro run .kiro/commands/continuous_optimization.kiro --emergency=true

@@ -1,0 +1,221 @@
+# ================================================================
+# Kiro Engineering Command: Intelligent Monitoring & Analytics System
+# ================================================================
+
+@Directive: نظام المراقبة والتحليل الذكي الشامل لمشروع بصير
+@Mode: continuous_intelligent_monitoring
+@Behavior: proactive_analysis_and_optimization
+@Scope: complete_system_ecosystem
+@Context: baseer_production_and_development_monitoring
+
+@Goal: توفير مراقبة ذكية شاملة وتحليل متقدم لجميع جوانب مشروع بصير
+       مع التنبؤ بالمشاكل والتحسين الاستباقي.
+
+@Monitoring_Domains:
+
+  1. **مراقبة الأداء التقني:**
+     - أوقات الاستجابة للـ APIs
+     - استخدام الموارد (CPU, Memory, Storage)
+     - أداء قاعدة البيانات والاستعلامات
+     - سرعة التحميل للواجهات العربية
+     - كفاءة تكامل ZATCA
+
+  2. **مراقبة الأمان والامتثال:**
+     - محاولات الاختراق والتهديدات
+     - حالة الشهادات والتشفير
+     - امتثال ZATCA والمتطلبات التنظيمية
+     - حماية البيانات الشخصية (PDPL)
+     - تدقيق العمليات الحساسة
+
+  3. **مراقبة تجربة المستخدم:**
+     - معدلات الاستخدام والتفاعل
+     - أداء الواجهات العربية وRTL
+     - نجاح العمليات المالية
+     - رضا المستخدمين والتغذية الراجعة
+     - معدلات التحويل والاحتفاظ
+
+  4. **مراقبة العمليات التجارية:**
+     - نجاح عمليات الفوترة الإلكترونية
+     - كفاءة المدفوعات والتحصيل
+     - أداء خدمة العملاء
+     - نمو الإيرادات والمستخدمين
+     - تحليل السوق والمنافسة
+
+@Intelligent_Analytics_Agents:
+
+  - **Performance_Intelligence_Agent:**
+    - تحليل الأداء في الوقت الفعلي
+    - التنبؤ بالاختناقات والمشاكل
+    - تحسين الموارد تلقائياً
+    - إنشاء تقارير الأداء الذكية
+
+  - **Security_Analytics_Agent:**
+    - كشف التهديدات المتقدمة
+    - تحليل أنماط الهجمات
+    - مراقبة الامتثال المستمر
+    - إدارة الحوادث الأمنية
+
+  - **User_Experience_Agent:**
+    - تحليل سلوك المستخدمين
+    - تحسين الواجهات العربية
+    - قياس رضا المستخدمين
+    - تحسين معدلات التحويل
+
+  - **Business_Intelligence_Agent:**
+    - تحليل المؤشرات التجارية
+    - التنبؤ بالنمو والإيرادات
+    - تحليل السوق والاتجاهات
+    - دعم اتخاذ القرارات الاستراتيجية
+
+  - **ZATCA_Compliance_Monitor:**
+    - مراقبة حالة التكامل مع ZATCA
+    - تتبع نجاح الفواتير الإلكترونية
+    - مراقبة التحديثات التنظيمية
+    - ضمان الامتثال المستمر
+
+@Advanced_Monitoring_Features:
+
+  1. **التحليل التنبؤي:**
+     - التنبؤ بالأعطال والمشاكل
+     - توقع احتياجات الموارد
+     - تحليل اتجاهات الاستخدام
+     - التنبؤ بالنمو والتوسع
+
+  2. **التحسين التلقائي:**
+     - تحسين الأداء تلقائياً
+     - إعادة توزيع الموارد
+     - تحسين الاستعلامات
+     - تحديث التكوينات
+
+  3. **التنبيهات الذكية:**
+     - تنبيهات مخصصة حسب الأولوية
+     - تجميع التنبيهات المترابطة
+     - تقليل الإنذارات الكاذبة
+     - إرسال تنبيهات متعددة القنوات
+
+  4. **التقارير التفاعلية:**
+     - لوحات معلومات في الوقت الفعلي
+     - تقارير مخصصة للأدوار
+     - تحليل الاتجاهات والأنماط
+     - تصدير البيانات والتقارير
+
+@Monitoring_Infrastructure:
+
+  **Data Collection Layer:**
+  - Prometheus للمقاييس التقنية
+  - ELK Stack لتحليل السجلات
+  - Custom collectors للبيانات التجارية
+  - Real-time streaming مع Kafka
+
+  **Analytics Processing:**
+  - Apache Spark للتحليل الضخم
+  - Machine Learning models للتنبؤ
+  - Real-time processing مع Apache Flink
+  - Data warehousing مع ClickHouse
+
+  **Visualization & Alerting:**
+  - Grafana للوحات المعلومات
+  - Custom Arabic dashboards
+  - Multi-channel alerting (SMS, Email, Slack)
+  - Mobile notifications للأحداث الحرجة
+
+@Key_Performance_Indicators:
+
+  **Technical KPIs:**
+  - API Response Time: < 200ms (95th percentile)
+  - System Uptime: > 99.99%
+  - Database Query Performance: < 100ms average
+  - Error Rate: < 0.1%
+  - Security Incidents: Zero critical
+
+  **Business KPIs:**
+  - ZATCA Success Rate: > 99%
+  - Payment Success Rate: > 95%
+  - User Satisfaction (NPS): > +40
+  - Monthly Active Users Growth: > 20%
+  - Revenue Growth: > 30% monthly
+
+  **Arabic Experience KPIs:**
+  - RTL Layout Performance: 100% functional
+  - Arabic Font Loading: < 1s
+  - Localization Accuracy: > 98%
+  - Cultural Compliance: 100%
+
+@Automated_Response_System:
+
+  1. **Performance Issues:**
+     - Auto-scaling resources
+     - Query optimization
+     - Cache warming
+     - Load balancing adjustment
+
+  2. **Security Incidents:**
+     - Automatic threat blocking
+     - Incident isolation
+     - Security team notification
+     - Forensic data collection
+
+  3. **Business Anomalies:**
+     - Transaction monitoring
+     - Fraud detection
+     - Revenue protection
+     - Customer support escalation
+
+@Reporting_Framework:
+
+  **Real-time Dashboards:**
+  - Executive summary dashboard
+  - Technical operations center
+  - Business metrics overview
+  - ZATCA compliance status
+
+  **Periodic Reports:**
+  - Daily operational reports
+  - Weekly performance summaries
+  - Monthly business reviews
+  - Quarterly strategic analysis
+
+  **Custom Analytics:**
+  - Ad-hoc query interface
+  - Custom report builder
+  - Data export capabilities
+  - API access for integrations
+
+@Integration_Points:
+
+  - AWS CloudWatch للبنية التحتية
+  - Application Performance Monitoring
+  - ZATCA API monitoring
+  - Payment gateway analytics
+  - Customer support systems
+  - Business intelligence tools
+
+@Success_Metrics:
+
+  - 100% system visibility achieved
+  - < 5 minutes mean time to detection
+  - < 15 minutes mean time to resolution
+  - 90% reduction in manual monitoring
+  - 50% improvement in proactive issue resolution
+
+@Execution_Modes:
+
+  # التفعيل الكامل للمراقبة
+  kiro run .kiro/commands/intelligent_monitoring_system.kiro --mode=full_deployment
+
+  # مراقبة مخصصة
+  kiro run .kiro/commands/intelligent_monitoring_system.kiro --focus=performance
+  kiro run .kiro/commands/intelligent_monitoring_system.kiro --focus=security
+  kiro run .kiro/commands/intelligent_monitoring_system.kiro --focus=business
+
+  # تحليل وتقارير
+  kiro run .kiro/commands/intelligent_monitoring_system.kiro --analyze=current_state
+  kiro run .kiro/commands/intelligent_monitoring_system.kiro --report=comprehensive
+  kiro run .kiro/commands/intelligent_monitoring_system.kiro --predict=future_needs
+
+@Output_Deliverables:
+  - نظام مراقبة ذكي شامل ومتكامل
+  - لوحات معلومات عربية تفاعلية
+  - نظام تنبيهات ذكي ومخصص
+  - تقارير تحليلية متقدمة ومؤتمتة
+  - قدرات تنبؤية وتحسين استباقي

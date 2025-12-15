@@ -1,0 +1,155 @@
+# ================================================================
+# Kiro Engineering Command: Intelligent External Integrations Manager
+# ================================================================
+
+@Directive: Manage and optimize all external service integrations with intelligent monitoring and adaptation
+@Mode: integration_intelligence
+@Behavior: adaptive_integration_management
+@Scope: external_services_ecosystem
+@Focus: zatca_payments_notifications_ocr
+
+@Goal: Ensure robust, efficient, and intelligent management of all external integrations
+       with automatic failover, optimization, and compliance monitoring.
+
+@Integration_Domains:
+
+  1. **ZATCA Integration Intelligence:**
+     - Monitor ZATCA API health and response times
+     - Implement intelligent retry mechanisms
+     - Cache validation rules and tax rates
+     - Predict and prevent submission failures
+     - Maintain compliance with regulation updates
+
+  2. **Payment Gateway Optimization:**
+     - Load balance between Moyasar and PayTabs
+     - Monitor payment success rates by method
+     - Implement intelligent routing based on performance
+     - Handle webhook failures and retries
+     - Optimize for Saudi payment preferences
+
+  3. **Communication Services Management:**
+     - SMS/Email delivery optimization
+     - Multi-provider failover for notifications
+     - Arabic message template optimization
+     - Delivery rate monitoring and improvement
+     - Cost optimization across providers
+
+  4. **OCR and AI Services:**
+     - AWS Textract optimization for Arabic receipts
+     - Intelligent preprocessing for better accuracy
+     - Cost optimization through smart batching
+     - Accuracy improvement through machine learning
+     - Custom model training for Arabic financial documents
+
+@Intelligent_Agents:
+
+  - **ZATCA_Intelligence_Agent:**
+    - Real-time ZATCA API monitoring
+    - Regulation change detection and adaptation
+    - Submission optimization and error prediction
+    - Compliance reporting and analytics
+
+  - **Payment_Optimization_Agent:**
+    - Payment method performance analysis
+    - Fraud detection and prevention
+    - Currency and fee optimization
+    - Customer payment behavior analysis
+
+  - **Communication_Intelligence_Agent:**
+    - Delivery optimization across channels
+    - Message personalization and localization
+    - Engagement rate improvement
+    - Multi-language support optimization
+
+  - **OCR_Enhancement_Agent:**
+    - Receipt recognition accuracy improvement
+    - Arabic text extraction optimization
+    - Custom model training and deployment
+    - Cost-performance optimization
+
+@Adaptive_Strategies:
+
+  1. **Health Monitoring:**
+     - Real-time service availability tracking
+     - Performance degradation detection
+     - Automatic failover mechanisms
+     - SLA compliance monitoring
+
+  2. **Intelligent Routing:**
+     - Dynamic service selection based on performance
+     - Load balancing across multiple providers
+     - Geographic optimization for Middle East
+     - Cost-performance optimization
+
+  3. **Predictive Maintenance:**
+     - Service failure prediction
+     - Proactive capacity scaling
+     - Integration point optimization
+     - Performance trend analysis
+
+  4. **Compliance Automation:**
+     - Automatic regulation compliance checking
+     - Policy update detection and implementation
+     - Audit trail maintenance
+     - Compliance reporting automation
+
+@Integration_Monitoring:
+
+  - **Real-time Dashboards:**
+    - Service health and performance metrics
+    - Integration success rates
+    - Cost tracking and optimization
+    - Compliance status monitoring
+
+  - **Intelligent Alerting:**
+    - Predictive failure alerts
+    - Performance degradation warnings
+    - Compliance violation notifications
+    - Cost threshold alerts
+
+  - **Analytics and Reporting:**
+    - Integration performance analytics
+    - Cost optimization reports
+    - Compliance audit reports
+    - Business impact analysis
+
+@Optimization_Actions:
+
+  1. **Performance Optimization:**
+     - Connection pooling and caching
+     - Request batching and optimization
+     - Response time improvement
+     - Bandwidth optimization
+
+  2. **Cost Optimization:**
+     - Usage pattern analysis
+     - Provider cost comparison
+     - Intelligent usage scheduling
+     - Waste elimination
+
+  3. **Reliability Enhancement:**
+     - Redundancy implementation
+     - Circuit breaker patterns
+     - Graceful degradation
+     - Recovery automation
+
+@Success_Metrics:
+  - 99.9% integration uptime
+  - < 100ms average integration response time
+  - > 99% ZATCA submission success rate
+  - > 95% payment processing success rate
+  - 20% cost optimization target
+  - 100% compliance maintenance
+
+@Execution_Modes:
+  - Continuous monitoring and optimization
+  - Scheduled health checks and updates
+  - On-demand integration testing
+  - Emergency failover activation
+  - Compliance audit mode
+
+@Execution:
+  kiro run .kiro/commands/intelligent_integrations.kiro --mode=monitor
+  kiro run .kiro/commands/intelligent_integrations.kiro --service=zatca
+  kiro run .kiro/commands/intelligent_integrations.kiro --optimize=payments
+  kiro run .kiro/commands/intelligent_integrations.kiro --audit=compliance

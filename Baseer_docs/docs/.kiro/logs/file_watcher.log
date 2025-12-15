@@ -1,0 +1,4 @@
+🔍 بدء مراقبة الملفات...
+.kiro/scripts/file_watcher.sh: line 15: entr: command not found
+.kiro/scripts/file_watcher.sh: line 8: entr: command not found
+.kiro/scripts/file_watcher.sh: line 22: entr: command not found

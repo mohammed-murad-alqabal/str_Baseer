@@ -1,0 +1,217 @@
+# ================================================================
+# Kiro Engineering Command: Master Intelligent Controller
+# ================================================================
+
+@Directive: Central command and control system for all Baseer project operations
+@Mode: master_orchestration
+@Behavior: intelligent_command_coordination
+@Scope: global_project_control
+@Authority: supreme_project_management
+
+@Goal: Provide centralized, intelligent control over all project operations,
+       ensuring optimal coordination, resource utilization, and goal achievement.
+
+@Command_Hierarchy:
+
+  1. **Strategic Level (Master Controller)**
+     - Project vision and goal alignment
+     - Resource allocation and optimization
+     - Risk management and mitigation
+     - Stakeholder communication and reporting
+
+  2. **Operational Level (Lifecycle Manager)**
+     - Phase management and transitions
+     - Quality gate enforcement
+     - Deployment coordination
+     - Performance monitoring
+
+  3. **Tactical Level (Specialized Executors)**
+     - Task implementation (MVP Executor)
+     - Integration management (Intelligent Integrations)
+     - Continuous optimization
+     - Governance and compliance
+
+@Master_Intelligence_System:
+
+  - **Strategic_AI_Agent:**
+    - Long-term planning and vision alignment
+    - Market analysis and competitive intelligence
+    - Business model optimization
+    - Strategic decision making
+
+  - **Operational_AI_Agent:**
+    - Resource optimization across all operations
+    - Performance monitoring and improvement
+    - Risk assessment and mitigation
+    - Quality assurance coordination
+
+  - **Tactical_AI_Agent:**
+    - Task prioritization and execution
+    - Technical decision making
+    - Implementation optimization
+    - Problem solving and resolution
+
+@Command_Coordination_Matrix:
+
+  ```
+  Master Controller
+  ├── Project Lifecycle Manager
+  │   ├── Development Phase
+  │   │   ├── MVP Executor
+  │   │   ├── Governance & Compliance
+  │   │   └── Intelligent Integrations
+  │   ├── Testing Phase
+  │   │   ├── Quality Assurance
+  │   │   └── Performance Validation
+  │   ├── Staging Phase
+  │   │   ├── Deployment Automation
+  │   │   └── Integration Testing
+  │   └── Production Phase
+  │       ├── Operations Management
+  │       └── Continuous Optimization
+  └── Support Systems
+      ├── Knowledge Management
+      ├── Policy Enforcement
+      └── Reporting & Analytics
+  ```
+
+@Intelligent_Decision_Framework:
+
+  1. **Context Analysis:**
+     - Current project state assessment
+     - Resource availability evaluation
+     - Risk and opportunity identification
+     - Stakeholder requirement analysis
+
+  2. **Strategic Planning:**
+     - Goal prioritization and alignment
+     - Resource allocation optimization
+     - Timeline and milestone planning
+     - Success criteria definition
+
+  3. **Execution Coordination:**
+     - Command sequence optimization
+     - Parallel execution management
+     - Dependency resolution
+     - Progress monitoring and adjustment
+
+  4. **Continuous Improvement:**
+     - Performance analysis and optimization
+     - Learning integration and knowledge update
+     - Process refinement and enhancement
+     - Innovation identification and implementation
+
+@Command_Execution_Modes:
+
+  1. **Autonomous Mode:**
+     - Full self-directed operation
+     - Minimal human intervention
+     - Intelligent decision making
+     - Continuous optimization
+
+  2. **Supervised Mode:**
+     - Human oversight and approval
+     - Critical decision escalation
+     - Progress reporting and updates
+     - Manual intervention capability
+
+  3. **Interactive Mode:**
+     - Real-time collaboration
+     - Dynamic goal adjustment
+     - Immediate feedback integration
+     - Flexible execution adaptation
+
+  4. **Emergency Mode:**
+     - Crisis response activation
+     - Rapid problem resolution
+     - Resource reallocation
+     - Recovery procedure execution
+
+@Success_Metrics_Dashboard:
+
+  - **Project Health Score:** Overall project status (0-100)
+  - **Goal Achievement Rate:** Progress toward objectives (%)
+  - **Resource Efficiency:** Utilization optimization (%)
+  - **Quality Score:** Deliverable quality metrics (0-100)
+  - **Risk Level:** Current risk assessment (Low/Medium/High)
+  - **Stakeholder Satisfaction:** Feedback and approval ratings
+
+@Reporting_Framework:
+
+  - **Real-time Status:** Live project dashboard
+  - **Daily Summaries:** Progress and issue reports
+  - **Weekly Analytics:** Performance and trend analysis
+  - **Monthly Reviews:** Strategic assessment and planning
+  - **Quarterly Reports:** Comprehensive project evaluation
+
+@Emergency_Protocols:
+
+  1. **System Failure Response:**
+     - Immediate issue identification
+     - Automatic failover activation
+     - Recovery procedure execution
+     - Stakeholder notification
+
+  2. **Security Incident Management:**
+     - Threat detection and isolation
+     - Security protocol activation
+     - Incident response coordination
+     - Recovery and hardening
+
+  3. **Performance Degradation:**
+     - Performance issue identification
+     - Resource reallocation
+     - Optimization procedure activation
+     - Service restoration
+
+@Execution_Commands:
+
+  # Primary Operations
+  kiro run .kiro/commands/master_controller.kiro --mode=autonomous
+  kiro run .kiro/commands/master_controller.kiro --mode=supervised
+  kiro run .kiro/commands/master_controller.kiro --mode=interactive
+
+  # Specific Operations
+  kiro run .kiro/commands/master_controller.kiro --phase=development
+  kiro run .kiro/commands/master_controller.kiro --phase=production
+  kiro run .kiro/commands/master_controller.kiro --emergency=activate
+
+  # Analysis and Reporting
+  kiro run .kiro/commands/master_controller.kiro --analyze=status
+  kiro run .kiro/commands/master_controller.kiro --report=comprehensive
+  kiro run .kiro/commands/master_controller.kiro --optimize=resources
+
+@Enhanced_Integration_Matrix:
+
+  **Core Command Integration:**
+  - supreme_orchestrator.kiro (المنسق الأعلى)
+  - unified_autonomous_package.kiro (الحزمة الموحدة)
+  - intelligent_monitoring_system.kiro (نظام المراقبة الذكي)
+  - knowledge_evolution_system.kiro (نظام تطوير المعرفة)
+
+  **Specialized Command Integration:**
+  - baseer_mvp_executor.kiro (منفذ مهام بصير)
+  - intelligent_integrations.kiro (إدارة التكاملات)
+  - continuous_optimization.kiro (التحسين المستمر)
+  - auto_governance_and_compliance.kiro (الحوكمة والامتثال)
+
+  **External System Integration:**
+  - ZATCA API integration and monitoring
+  - Payment gateways (Moyasar, PayTabs)
+  - AWS infrastructure and services
+  - Monitoring platforms (Prometheus, Grafana)
+  - Communication systems (SMS, Email, WhatsApp)
+
+  **Knowledge and Learning Integration:**
+  - Real-time knowledge extraction from all operations
+  - Continuous learning from user interactions
+  - Market intelligence and competitive analysis
+  - Compliance updates and regulatory changes
+  - Performance optimization insights
+
+@Arabic_Market_Specialization:
+  - RTL layout optimization and validation
+  - Arabic font and typography management
+  - Cultural adaptation and localization
+  - Saudi market compliance (ZATCA, PDPL)
+  - GCC expansion readiness

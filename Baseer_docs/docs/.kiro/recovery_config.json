@@ -1,0 +1,35 @@
+{
+  "recovery_settings": {
+    "auto_recovery_enabled": true,
+    "auto_save_interval_minutes": 5,
+    "checkpoint_after_files": 50,
+    "checkpoint_after_depth_levels": 1,
+    "max_backup_files": 10,
+    "backup_compression": false,
+    "integrity_check_enabled": true
+  },
+  "recovery_triggers": {
+    "session_timeout_minutes": 30,
+    "unexpected_termination": true,
+    "manual_recovery_request": true,
+    "corrupted_state_detection": true
+  },
+  "backup_retention": {
+    "keep_hourly_for_days": 1,
+    "keep_daily_for_weeks": 1,
+    "keep_weekly_for_months": 1,
+    "compress_old_backups": true
+  },
+  "notification_settings": {
+    "show_recovery_prompt": true,
+    "auto_recovery_timeout_seconds": 30,
+    "detailed_progress_logging": true,
+    "recovery_success_notification": true
+  },
+  "fallback_options": {
+    "use_previous_backup_on_corruption": true,
+    "restart_project_on_critical_error": true,
+    "create_new_session_on_total_failure": true,
+    "preserve_completed_projects": true
+  }
+}

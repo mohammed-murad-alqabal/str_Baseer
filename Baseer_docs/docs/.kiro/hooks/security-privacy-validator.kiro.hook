@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "name": "Security & Privacy Validator",
+  "description": "Validates security practices, sensitive data handling, encryption, and privacy compliance for financial data",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "**/*auth*.dart",
+      "**/*auth*.go",
+      "**/*security*.dart",
+      "**/*security*.go",
+      "**/*encryption*.dart",
+      "**/*encryption*.go",
+      "**/*jwt*.dart",
+      "**/*jwt*.go",
+      "**/*password*.dart",
+      "**/*password*.go",
+      "**/api_key*.dart",
+      "**/api_key*.go",
+      "**/.env*",
+      "**/secrets*.dart",
+      "**/secrets*.go"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A security or privacy-related file has been modified. Please validate the following:\n\n1. **Sensitive Data**: Check for hardcoded passwords, API keys, or secrets\n2. **Encryption**: Verify proper encryption implementation (AES-256, TLS 1.3)\n3. **Authentication**: Validate JWT token handling and session management\n4. **Authorization**: Check role-based access control and permission validation\n5. **Input Validation**: Ensure proper sanitization and validation of user inputs\n6. **SQL Injection**: Check for potential SQL injection vulnerabilities\n7. **Data Privacy**: Verify compliance with data protection regulations\n8. **Logging**: Ensure sensitive data is not logged in plain text\n9. **API Security**: Check for proper CORS, rate limiting, and API security headers\n\nProvide specific security recommendations and flag any potential vulnerabilities that could compromise financial data security."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "session_id": "ultra_scan_1761861230",
+  "start_time": 1761861230.1860368,
+  "current_time": 1761861230.8722591,
+  "stats": {
+    "files_scanned": 269,
+    "directories_scanned": 0,
+    "projects_analyzed": 0,
+    "bytes_processed": 58100442,
+    "scan_speed_fps": 0,
+    "errors_count": 0,
+    "warnings_count": 0
+  },
+  "context_stats": {
+    "files_count": 269,
+    "directories_count": 14,
+    "total_size": 58100442,
+    "memory_usage_mb": 0.0123138427734375,
+    "compressed_chunks": 0,
+    "compression_ratio": 0
+  },
+  "running": true,
+  "paused": false
+}
